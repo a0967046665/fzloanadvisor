@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="facebook-domain-verification" content="233yyr1zkij1jl0xqxqymsj001ccr7" />
+    <meta name="google-site-verification" content="azYhhzq9quk6cOrmre1nY4-LqrWuVvgA0sEVkCEeTM0" />
+    <meta name="title" content="富日理財-貸款諮詢專家">
+    <meta name="keywords" content="我們只提供安全、合法、專業的諮詢服務 我們拒絕偽造文書及任何違法的貸款程序">
+    <meta name="description" content="累積數十萬件的貸款經驗 讓大小問題都能以最快的時間解決">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>富日理財-貸款諮詢專家</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style0309.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XZTQ0SEZCJ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XZTQ0SEZCJ');
+    </script>
+
+    <script src="./jquery-3.1.1.min.js"></script>
+    <script src="./countUp.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="nav_main size">
+            <a href="./index.html">
+                <img class="logo" src="./img/logo_black.png" alt="">
+            </a>
+            <div class="nav-item">
+                <a href="#service">服務項目</a>
+                <a href="#about">品牌介紹</a>
+                <a href="#about_pic">服務優勢</a>
+                <a href="#success">成功案例</a>
+                <a href="#knowledge">借貸知識</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner">
+        <div class="banner_top">
+            <div class="banner_left">
+                <img class="man" src="./img/man.png" alt="">
+                <img class="banknote" src="./img/banknote.png" alt="">
+                <img class="money" src="./img/money.png" alt="">
+                <img class="main_title1" src="./img/main_title.png" alt="">
+                <img class="main_title2" src="./img/main_title2.png" alt="">
+                <img class="main_title3" src="./img/main_title3.png" alt="">
+                <div class="gold_main">
+                    <div class="gold_box">
+                        <img class="gold" src="./img/gold.png" alt="">
+                        <img class="gold_border" src="./img/gold_border.png" alt="">
+                        <div class="nobox_left"></div>
+                        <div class="nobox_right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="banner_right">
+                <form id="contact-form" action="">
+                    <input type="hidden" name="contact_number">
+                    <label for="name">姓名</label><br>
+                    <input type="text" id="name" name="user_name" placeholder="請輸入姓名" required><br>
+                    <label for="phone">手機</label><br>
+                    <input type="tel" id="phone" name="user_phone" placeholder="0911123456(10碼)" pattern="[0-9]{10}"
+                        required><br>
+                    <label for="need">需求選項</label> <br>
+                    <select name="user_need" id="need">
+                        <option value="">請選擇</option>
+                        <option value="資金需求">資金需求</option>
+                        <option value="資金需求">債務整合</option>
+                    </select><br>
+                    <label for="HowWe">如何得知我們</label> <br>
+                    <select name="user_howknow" id="HowWe">
+                        <option value="">請選擇</option>
+                        <option value="FaceBook">FaceBook</option>
+                        <option value="YouTube">YouTube</option>
+                        <option value="其他">其他</option>
+                    </select> <br>
+
+                    <label for="">信用加分</label><br>
+                    <label><input type="checkbox" name="user_house" value="房屋&土地">房屋&土地</label>
+                    <label class="labelCheck"><input type="checkbox" name="user_salary" value="薪資&勞保">薪資&勞保</label>
+                    <label class="labelCheck"><input type="checkbox" name="user_card" value="信用卡">信用卡</label> <br>
+
+                    <input id="check" class="submit" type="submit" value="發送諮詢表單">
+
+                </form>
+            </div>
+        </div>
+        <div class="banner_btm size">
+            <div class="banner_btm_left">
+                <img src="./img/people2.png" alt="">
+            </div>
+            <div class="banner_btm_right">
+                <div class="data_box">
+                    <p class="data_title">成功貸款案件</p>
+                    <p class="data_content counter"> <span id="counter">18935</span> 件</p>
+                </div>
+                <div class="data_box">
+                    <p class="data_title">今年案件</p>
+                    <p class="data_content counter"> <span id="counter1">4935</span> 件</p>
+                </div>
+                <div class="data_box">
+                    <p class="data_title">服務滿意表現</p>
+                    <p class="data_content"> <span id="counter2">99</span> %</p>
+                </div>
+                <div class="data_box">
+                    <p class="data_title">貸款成功累積金額</p>
+                    <p class="data_content"> <span id="counter3">23</span>億</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 服務項目 -->
+    <div id="service" class="service">
+        <!-- 標題組件 -->
+        <div class="main_title size">
+            <p class="title">服務項目</p>
+            <p>一</p>
+            <p class="content">Service Items</p>
+        </div>
+        <div class="service_main size">
+            <div class="service_box">
+                <a href="./house/" target="_blank">
+                    <img src="./img/icon_house.png" alt="">
+                    <p class="service_p">房屋貸款</p>
+                </a>
+            </div>
+            <div class="service_box">
+                <a href="./tianping/" target="_blank">
+                    <img src="./img/icon_tianping.png" alt="">
+                    <p class="service_p">整合貸款</p>
+                </a>
+            </div>
+            <div class="service_box">
+                <a href="./motorcycle/" target="_blank">
+                    <img src="./img/icon_motorcycle.png" alt="">
+                    <p class="service_p">機車貸款</p>
+                </a>
+            </div>
+            <div class="service_box">
+                <a href="./money/" target="_blank">
+                    <img src="./img/icon_money.png" alt="">
+                    <p class="service_p">信用貸款</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+    <div id="about" class="about">
+        <!-- 標題組件 -->
+        <div class="main_title size">
+            <p class="title">富日理財</p>
+            <p>一</p>
+            <p class="content">FZ Loan Advisor</p>
+        </div>
+        <div class="about_data size">
+            <div class="data_left">
+                <h3>我們只提供安全、合法、專業的諮詢服務 <br>
+                    我們拒絕偽造文書及任何違法的貸款程序
+                </h3>
+                <p>累積數十年的貸款送件經驗 <br>
+                    專為客戶解決貸款大小問題 <br>
+                    大數據與送件經驗的結合提升整體過件機率 <br>
+                    讓被銀行打退件的你，可以有機會成功申貸 <br>
+                    我們非代書、當鋪、地下錢莊借貸性質 <br>
+                    我們的腳色是提供有效的資源及管道協助承辦貸款 <br>
+                    讓您在銀行解決不了的問題，找到解套方式 <br>
+                    讓您貸款也能受到平等的對待，得到不同的優貸
+                </p>
+            </div>
+            <div class="data_right">
+                <img src="./img/office.jpg" alt="">
+            </div>
+        </div>
+
+        <div id="about_pic" class="about_pic size">
+            <!-- 圖 -->
+            <div class="pic_main">
+                <div class="pic_box">
+                    <img src="./img/icon_bulb.png" alt="">
+                    <p>1.詳細評估<br>您的工作、信用狀況</p>
+                </div>
+                <div class="pic_box">
+                    <img src="./img/icon_message.png" alt="">
+                    <p>2.經由專業人員<br>媒合所有貸款專案</p>
+                </div>
+                <div class="pic_box">
+                    <img src="./img/icon_card.png" alt="">
+                    <p>3.審核到撥款<br>最快三日能完成</p>
+                </div>
+                <div class="pic_box">
+                    <img src="./img/icon_page.png" alt="">
+                    <p>4.案件結束<br>客戶個人資料完全銷毀</p>
+                </div>
+            </div>
+            <!-- 進度條 -->
+            <div class="pic_data">
+                <div class="pic_data_left">
+                    <h3>
+                        累積數十萬件的貸款經驗<br>
+                        讓大小問題都能以最快的時間解決
+                    </h3>
+                    <p>
+                        對於額度及利率<br>
+                        能有效率去協議與爭取，達成您的理想值<br><br>
+                        遵守個人資料保護法條例 <br>
+                        保護客戶資料安全不外洩
+                    </p>
+                </div>
+                <div class="pic_data_right">
+                    <div class="pic_data_box">
+                        <div class="pic_data_text">
+                            <span>貸款機率</span>
+                            <span>92%</span>
+                        </div>
+                        <div class="schedule" data-progress="92"></div>
+                    </div>
+                    <div class="pic_data_box">
+                        <div class="pic_data_text">
+                            <span>執行效率</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="schedule" data-progress="100"></div>
+                    </div>
+                    <div class="pic_data_box">
+                        <div class="pic_data_text">
+                            <span>客戶好評</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="schedule " data-progress="95"></div>
+                    </div>
+                    <div class="pic_data_box">
+                        <div class="pic_data_text">
+                            <span>經驗年資</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="schedule" data-progress="100"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- 跑馬燈 -->
+    <div id="success" class="success">
+        <div class="main_title size" style="color: #fff;">
+            <p class="title" style="color: #fff;">成功案例</p>
+            <p>一</p>
+            <p class="content">Success Case</p>
+        </div>
+        <div class="success_box">
+            <div class="success_sty">
+                <h3>貸款核准客戶</h3>
+                <div class="success_data" data-direction='up' data-pauseOnHover="true">
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜陳小姐 成功貸款10萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜吳先生 成功貸款70萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜李小姐 成功貸款23萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜林先生 成功貸款91萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜陳小姐 成功貸款40萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜魏先生 成功貸款350萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜蔡小姐 成功貸款72萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜劉先生 成功貸款50萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜黃小姐 成功貸款27萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜艾小姐 成功貸款65萬 <img src="./img/fireworks.png" alt=""></p>
+
+                </div>
+            </div>
+            <div class="success_sty">
+                <h3>房貸核准客戶</h3>
+                <div class="success_data" data-direction='up' data-pauseOnHover="true">
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜黃小姐 成功貸款27萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜艾小姐 成功貸款65萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜林先生 成功貸款91萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜陳小姐 成功貸款70萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜陳小姐 成功貸款10萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜吳先生 成功貸款170萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜李小姐 成功貸款23萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜魏先生 成功貸款600萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜蔡小姐 成功貸款72萬 <img src="./img/fireworks.png" alt=""></p>
+                    <p> <img src="./img/fireworks.png" alt=""> 恭喜劉先生 成功貸款50萬 <img src="./img/fireworks.png" alt=""></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 借貸知識 -->
+    <div id="knowledge" class="Knowledge">
+        <div class="main_title size">
+            <p class="title">借貸知識</p>
+            <p>一</p>
+            <p class="content">Knowledge</p>
+        </div>
+        <div class="Knowledge_main size">
+            <div class="Knowledge_card">
+                <a href="" data-toggle="modal" data-target="#exampleModal">
+                    <img src="./img/Knowledge1_m.jpeg" alt="">
+                    <p>缺資金想用房屋進行二胎或增貸嗎？ 申貸前你一定要知道的兩件事！</p>
+                </a>
+            </div>
+            <div class="Knowledge_card">
+                <a href="" data-toggle="modal" data-target="#exampleModa2">
+                    <img src="./img/Knowledge2_m.jpeg" alt="">
+                    <p>軍人辦理貸款真的會比較划算嗎？三大關鍵帶你一起了解！</p>
+                </a>
+            </div>
+            <div class="Knowledge_card">
+                <a href="" data-toggle="modal" data-target="#exampleModa3">
+                    <img src="./img/Knowledge3_m.jpeg" alt="">
+                    <p>想透過債務整合降低還款壓力嗎？六大整合關鍵策略讓你一次就能順利整合！</p>
+                </a>
+            </div>
+            <div class="Knowledge_card">
+                <a href="" data-toggle="modal" data-target="#exampleModa4">
+                    <img src="./img/Knowledge4_m.jpeg" alt="">
+                    <p>什麼是信用聯徵分數？對我的貸款會有什麼影響？該如何查詢自己的信用評比分數？</p>
+                </a>
+            </div>
+            <div class="Knowledge_card">
+                <a href="" data-toggle="modal" data-target="#exampleModa5">
+                    <img src="./img/Knowledge5_m.jpeg" alt="">
+                    <p>我有小額資金的週轉需求，該如何正確申請機車貸款獲得漂亮的金額和利率？五大關鍵告訴你！</p>
+                </a>
+            </div>
+            <div class="Knowledge_card">
+                <a href="" data-toggle="modal" data-target="#exampleModa6">
+                    <img src="./img/Knowledge6_m.jpeg" alt="">
+                    <p>民間貸款真的有保障嗎？四大融資貸款優勢與三個注意事項，讓你貸得更安心！</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 燈箱 -->
+    <!-- Button trigger modal -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">缺資金想用房屋進行二胎或增貸嗎？ 申貸前你一定要知道的兩件事！</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/Knowledge1.jpeg" alt="">
+                    <p>在所有的貸款選項中，可貸金額最高、利率又低的就屬於房屋貸款，對於一些需要高資金進行周轉的人來說，房屋就是最好的抵押品。</p>
+                    <p>不過，房屋本身若還有貸款，想要再進行貸款的話，你知道根據每個人條件的不同，會有兩種不同的貸款方式可以選擇嗎？</p><br>
+
+                    <p style="font-weight: bold;">二順位房貸和房屋增貸的差異</p>
+                    <p>銀行屬於房屋抵押品的第二順位，因此風險也會提高不少，這些風險將會轉嫁到申請人身上，導致可貸金額變低，且利率也會提升，比原有的房貸利率還高。以目前的二順位房貸市場來看，根據申請人的條件和房屋殘值，利率大約會落在
+                    </p><br>
+
+                    <p style="font-weight: bold;">申請房貸前一定要注意的兩件事！</p>
+                    <ul>
+                        <li>申貸前停看聽！</li>
+                        <li>別忘了精算房屋貸款的衍生費用和利率！</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModa2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">軍人辦理貸款真的會比較划算嗎？三大關鍵帶你一起了解！</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/Knowledge2.jpeg" alt="">
+                    <p>在眾多的貸款方案中，有一個較不知名、內容卻相對優惠的專案，那就是軍人貸款專案。</p>
+                    <p>由於職業軍人屬於軍公教的類別，因此在額度、利率方面會比一般人還要優惠，且憑藉著穩定的收入，過件率也會比較高。</p>
+                    <p>目前台灣有不少家銀行和民間機構都有提供軍人專屬的貸款方案，只要準備相關文件就可以提出申請，國軍也有相關的貸款轉介輔導</p>
+                    <p>如果你是職業軍人，有貸款的需求，相關介紹和細節可以參考國軍同袍儲蓄會的網站</p> <br>
+
+                    <P style="font-weight: bold;">不過，用軍人的身分辦理貸款真的會比較划算嗎？以下我們會先簡單介紹軍人貸款，再以三個面向帶你一起了解，關於軍人貸款方案的內容與細節。</P>
+                    <ol>
+                        <li>關鍵一：辦理軍人貸款有哪些條件限制？</li>
+                        <li>關鍵二：四個軍人一定要知道的軍貸審核原則</li>
+                        <li>關鍵三：如果無法辦理軍人貸款，還可以有哪些選擇？</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModa3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">想透過債務整合降低還款壓力嗎？六大整合關鍵策略讓你一次就能順利整合！</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/Knowledge3.jpeg" alt="">
+                    <p>在經濟不景氣的世代中，有多少人是背著債務過日子？舉凡房貸、車貸、學貸、信貸、卡債等等，在眾多的債務環伺、加上每一種債務的利率都不同的情況下，要打拼多久才能還完？如今又面臨全球流行性病毒來襲，沉重的債務早已讓許多國人喘不過氣。
+                    </p> <br>
+                    <p>更有報導指出，國人對於金融風險抵抗力普遍偏低，也就是說，有大約近50%的家庭生計長期呈現入不敷出的情況，甚至有將近20%的家庭，無法在一周內籌措到10萬。會造成這樣的情況，除了收入偏低、沒有正常的儲蓄習慣外，最大的原因主要來自於「負債過高」的問題，每個月償還債務後，幾乎沒有多餘可使用的生活費。
+                    </p><br>
+
+
+                    <p>
+                        今天，我們就來聊聊，如果自身的債務過多，已經瀕臨財務崩潰的情況下，應該如何整理這些債務，避免走向破產的地步？別忘了：「你不理財，財不理你」，處理債務也是理財的一部份。</p>
+                    <p style="font-weight: bold;">債務整合VS債務協商</p>
+                    <p>一般來說，處理多筆幾近無力償還的債務，例如：房貸、車貸、卡債等等，有債務整合與債務協商兩種做法：</p>
+                    <ol>
+                        <li>債務整合：</li>
+                        <li>債務協商：</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModa4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">什麼是信用聯徵分數？對我的貸款會有什麼影響？該如何查詢自己的信用評比分數？</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/Knowledge4.jpeg" alt="">
+                    <p>你是否有想過，當你向銀行申貸時，除了準備個人資料、抵押品資料、薪資證明等文件外，銀行是用什麼標準機制來進行貸款的審核呢？
+                    </p> <br>
+                    <p>今天，本篇文章將為你介紹，銀行審核貸款的標準機制：「信用聯徵分數」到底是什麼、分數從何而來？以及該如何自行查詢信用聯徵分數？
+                    </p>
+                    <p>如果你正準備進行貸款計畫，不妨先一起來了解信用分數的查詢方式，看看你目前的信用聯徵分數是多少吧！</p> <br>
+
+
+                    <p style="font-weight: bold;">接著我們再回到JCIC，該項分數一開始會以200分為基礎，滿分為800分，影響其分數增減的條件如下：</p>
+                    <ul>
+                        <li>貸款、卡費的繳款是否準時，或有遲繳的情形</li>
+                        <li>個人負債比，像是信用卡額度的使用情況以及目前所擁有的貸款</li>
+                        <li>是否有動用信用卡的循環利息或是預借現金的功能</li>
+                        <li>信用往來紀錄的時間長短</li>
+                        <li>聯徵查詢次數</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModa5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">我有小額資金的週轉需求，該如何正確申請機車貸款獲得漂亮的金額和利率？五大關鍵告訴你！</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/Knowledge5.jpeg" alt="">
+                    <p>2020年至今，爆發了一場影響全球經濟的武漢肺炎，重挫許多國內的產業，尤其是亟需現金流的旅遊業者、飯店業、餐飲業、小吃攤販、夜市等等，各行各業可以說是苦不堪言，撐不下去的直接認賠收店，還想繼續撐下去、等待疫情曙光的就只能走向貸款一途，畢竟政府能提供的金援非常有限，導致近期的貸款需求激增，大至房貸、車貸、小至個人信貸，每家企業、每個人都希望透過貸款度過艱難的時刻。
+                    </p> <br>
+                    <p>今天，我們就來跟你聊一聊，在眾多的貸款選項中，對於小吃、夜市攤販等小額資金需求的老闆們，除了個人信貸以外，還有另一個較便捷且快速的機車貸款。只是，機車貸款雖然有擔保品，過件機率會比個人信貸高很多，不過如果沒有仔細比較其中的差異，很有可能落入高利率的陷阱！
+                    </p><br>
+
+
+
+                    <p style="font-weight: bold;">以下我們將為你整理出5個機車貸款的關鍵，在你決定使用機車做小額貸款時，不妨審視一下自身的條件，避免貸到的金額少，利率卻高的嚇人。</p>
+                    <ul>
+                        <li>機車貸款關鍵一：機車的車齡</li>
+                        <li>機車貸款關鍵二：機車的類型</li>
+                        <li>機車貸款關鍵三：機車可貸的金額和利率</li>
+                        <li>機車貸款關鍵四：機車本身是否還有貸款未還清？</li>
+                        <li>機車貸款關鍵五：有機車做抵押品，還需要收入證明嗎？</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="exampleModa6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">民間貸款真的有保障嗎？四大融資貸款優勢與三個注意事項，讓你貸得更安心！</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/Knowledge6.jpeg" alt="">
+                    <p>放眼台灣的貸款市場，除了銀行、農漁會、郵局、信用合作社有提供相關的貸款服務外，還有多家融資企業也有提供貸款服務。
+                    </p>
+                    <p></p>相較於貸款條件較為嚴謹的金融機構，融資貸款的條件就寬鬆許多，有些甚至標榜不看負債比、不看信用分數，甚至不調聯徵就願意貸款給你。
+                    </p>
+                    <p>如果你總是被銀行拒貸，想要接觸融資貸款的話，建議你仔細閱讀本篇文章，我們會告訴你關於融資貸款三個必須注意的重點，以及四個融資貸款的優勢，讓你在第一次進行融資貸款時，就可以獲得完善的體驗。</p>
+                    <br>
+
+                    <p>什麼是融資貸款？和銀行貸款有什麼不同？</p>
+
+                    <p style="font-weight: bold;">廣義來說，只要不是向銀行申貸，都可以稱為融資貸款。以目前台灣的融資貸款型態來看，大致上可分為以下四種類型：</p>
+                    <ol>
+                        <li>由上市公司所設立的融資貸款，像是知名的中租、和潤等等，風險較低，且利率較划算</li>
+                        <li>政府立案、合法經營的當鋪，以抵押品的市值作為貸款額度的標準</li>
+                        <li>私人的代書貸款</li>
+                        <li>近幾年興起的個人對個人P2P借貸，如：LnB信用市集</li>
+
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="nav-item">
+            <a href="#service">服務項目</a>
+            <a href="#about">品牌介紹</a>
+            <a href="#about_pic">服務優勢</a>
+            <a href="#success">成功案例</a>
+            <a href="#knowledge">借貸知識</a>
+        </div>
+        <p>電話：07-2234999</p>
+        <p>服務時間9：30-17：00</p>
+        <p>地址：802台灣高雄市苓雅區光華一路206號</p>
+        <p>&copy;2022 富日理財-貸款諮詢專家 All rights reserved</p>
+        <hr>
+        <p>
+            如有接獲來路不明的廣告電話，要求提供金融卡 <br>
+            存摺帳號及密碼申辦貸款，切記請勿提供！ <br>
+            若有緊急的貸款需求，「富日理財」提醒您 多一道步驟 多一份保障
+        </p>
+    </footer>
+
+
+    <!-- bootstrap 4.6 -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+
+    <!-- 跑馬燈套件 -->
+    <script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js"></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js'
+        integrity='sha512-gWlyRVDsJvp5kesJt4cSdPPLZIBdln/uSwzYgUicQcbTgRNQE4QhP5KUBIYlLYLkiKIQiuD7KUMHzqGNW/D2bQ=='
+        crossorigin='anonymous'></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./main.js"></script>
+    <script>
+        var options = {
+            useEasing: true,
+            useGrouping: true, //進位
+            separator: ',',
+            decimal: '.',
+            prefix: '', //前面留幾個0
+            suffix: ''  //後面留幾個0
+        }
+
+        var demo = new CountUp("counter", 0, 18935, 0, 3, options);
+        var demo1 = new CountUp("counter1", 0, 4935, 0, 3, options);
+        var demo2 = new CountUp("counter2", 0, 99, 0, 3, options);
+        var demo3 = new CountUp("counter3", 0, 23, 0, 3, options);
+        demo.start();
+        demo1.start();
+        demo2.start();
+        demo3.start();
+
+
+        $(window).scroll(function () {
+            let mainWidth = $(window).width();
+            if (mainWidth >= 768) {
+                var skillTop = $('.about_data ').position().top;
+            } else {
+                var skillTop = $('.pic_main ').position().top;
+            }
+
+            var scrollPos = $(window).scrollTop();
+
+            // console.log(scrollPos);
+            if (scrollPos > skillTop) {
+
+                $('.schedule').each(function () {
+                    let thisValue = $(this).data('progress');
+                    $(this).css('width', thisValue + "%");
+                })
+            }
+        })
+
+        // gsap.to('.man',{duration:0.5,x:100})
+        const t1 = gsap.timeline({});
+        t1.from('.main_title1', { duration: 1, ease: "bounce.out", y: '-300%' })
+            .to('.main_title2', { duration: 0.5, opacity: 1, yoyo: true, repeat: 2 })
+            .to('.main_title3', { duration: 0.5, opacity: 1, yoyo: true, repeat: 2 }, 0.5)
+            .to('.nobox_left', { duration: 0.5, width: 0 }, 0.9)
+            .to('.nobox_right', { duration: 0.5, width: 0 }, 0.9)
+            .to('.gold_border', { duration: 0.1, opacity: 0, yoyo: true, repeat: -1 }, 1)
+
+        //   .to('.main_title4',{duration:0.5 , opacity:1 , yoyo:true , repeat:2})
+        const t2 = gsap.timeline({ repeat: -1, yoyo: true });
+        t2.to('.money', { duration: 0.5, x: -10 })
+        t2.to('.money', { duration: 0.5, x: 10 })
+
+
+        // 跑馬燈
+        $('.success_data').marquee({
+            duplicated: true
+        });
+
+    </script>
+
+</body>
+
+</html>
